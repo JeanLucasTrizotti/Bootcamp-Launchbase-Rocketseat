@@ -15,7 +15,7 @@ Este projeto esta sendo desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/)
 
-## :information_source: How to run
+## :information_source: Como executar
 
 ### Requisitos:
 

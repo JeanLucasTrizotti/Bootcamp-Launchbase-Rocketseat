@@ -29,7 +29,7 @@ Para executar o projeto, você precisará de:
 
 ```bash
 # Para executar o projeto abra o terminal e instale as dependências:
-$ npm i
+$ npm install
 # Em seguida, inicie o projeto com o comando abaixo:
 $ npm start
 ```

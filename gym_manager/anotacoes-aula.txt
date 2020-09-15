@@ -1,6 +1,4 @@
 Última aula assistida:
 
-Local do arquivo: D:\Videos Cursos\LaunchBase 2.0 Bootcamp – Rocketseat\Launchbase 2.0\Fase 03\01 - Controle de Academia\04 - Trabalhando com datas
-Numero da aula: 6
-
-git config --global user.name "Jean Lucas Trizotti"
+Local do arquivo: pasta 5
+Numero da aula: 3

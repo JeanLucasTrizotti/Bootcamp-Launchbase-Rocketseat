@@ -1,0 +1,22 @@
+{
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "https://www.linkedin.com/feed/",
+      "name": "Jean lucas Trizotti ",
+      "birth": 853200000000,
+      "gender": "M",
+      "services": "musculação, crosfit",
+      "created_at": 1600106980735
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://www.linkedin.com/feed/",
+      "name": "Geovanna",
+      "birth": 1164499200000,
+      "gender": "F",
+      "services": "academia",
+      "created_at": 1600108380589
+    }
+  ]
+}

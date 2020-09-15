@@ -28,6 +28,9 @@ routes.get('/instructors/:id/edit', instructors.edit);
 //Rota para salvar instrutor
 routes.post('/instructors', instructors.post);
 
+//Rota para atualizar instructor
+routes.put('/instructors', instructors.put);
+
 routes.get('/members', function (req, res) {
   return res.send('members');
 });

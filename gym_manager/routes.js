@@ -2,6 +2,12 @@ const express = require('express');
 const routes = express.Router();
 const instructors = require('./instructors');
 
+//Verbos HTTP
+//GET - Receber / RESOURCE
+//POST - Criar ou Salvar
+//PUT - Atualizar
+//DELETE - Deletar
+
 routes.get('/', function (req, res) {
   return res.redirect('/instructors'); //Redirecionar pagina para instrutors
 });

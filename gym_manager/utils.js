@@ -16,8 +16,19 @@ module.exports = {
     }
     return age;
   },
-
   date: function (timestamp) {
-    const 
+    const date = new Date(timestamp);
+
+    // yyyy - Ano
+    const year = date.getUTCFullYear();
+
+    // mm - Mês
+    const month = `0${date.getUTCMonth() + 1}`.slice(-2);
+
+    // dd - Dia
+    const day = `0${date.getUTCDate()}`.slice(-2);
+
+    // yyyy-mm-dd - Formato de data
+    return `${year}-${month}-${day}`;
   },
 };

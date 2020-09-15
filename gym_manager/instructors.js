@@ -1,8 +1,8 @@
 const fs = require('fs');
 const data = require('./data.json');
-const { age } = require('./utils');
+const { age, date } = require('./utils');
 
-//mostrar
+//---------------mostrar
 exports.show = function (req, res) {
   const { id } = req.params;
 
@@ -24,7 +24,7 @@ exports.show = function (req, res) {
   return res.render('instructors/show', { instructor });
 };
 
-//CREATE
+//---------------Create
 exports.post = function (req, res) {
   //req.query
   //req.body
@@ -63,7 +63,7 @@ exports.post = function (req, res) {
   });
 };
 
-//edit
+//---------------Editar
 exports.edit = function (req, res) {
   const { id } = req.params;
 
@@ -73,9 +73,14 @@ exports.edit = function (req, res) {
   //Verficando se o instructor foi encontrado
   if (!foundInstructor) return res.send('Instructor not found!');
 
-  return res.render('instructors/edit', { instructor: foundInstructor });
+  const instructor = {
+    ...foundInstructor,
+    birth: date(foundInstructor.birth),
+  };
+
+  return res.render('instructors/edit', { instructor });
 };
 
-//UPDATE
+//---------------Atualizar
 
-//DELETE
+//---------------Deletar

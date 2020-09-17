@@ -6,35 +6,16 @@
       "name": "Jean Lucas Trizotti ",
       "birth": 853200000000,
       "gender": "M",
-      "services": "musculação, crosfit",
+      "services": "musculação, crosfit, natação",
       "created_at": 1600106980735
     },
     {
       "id": 2,
-      "avatar_url": "https://www.linkedin.com/feed/",
+      "avatar_url": "https://i.pinimg.com/originals/05/27/ea/0527ea10d8ef34745e6c808d620c7813.png",
       "name": "Geovanna",
       "birth": 1164499200000,
-      "gender": "F",
-      "services": "academia",
-      "created_at": 1600108380589
-    },
-    {
-      "id": 3,
-      "avatar_url": "https://i.pinimg.com/originals/05/27/ea/0527ea10d8ef34745e6c808d620c7813.png",
-      "name": "Louise",
-      "birth": 1439856000000,
-      "gender": "F",
       "services": "natação, zumba",
-      "created_at": 1600133770592
-    },
-    {
-      "id": 4,
-      "avatar_url": "https://i.pinimg.com/originals/05/27/ea/0527ea10d8ef34745e6c808d620c7813.png",
-      "name": "Louise",
-      "birth": 1439856000000,
-      "gender": "F",
-      "services": "natação, zumba",
-      "created_at": 1600134193485
+      "created_at": 1600312481183
     }
   ]
 }

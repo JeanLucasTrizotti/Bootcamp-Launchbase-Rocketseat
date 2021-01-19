@@ -1,0 +1,72 @@
+<div class="item">
+  <div>Avatar URL</div>
+  <div>
+    <input
+      type="url"
+      name="avatar_url"
+      placeholder="http://"
+      value="{{ instructor.avatar_url }}"
+    />
+  </div>
+</div>
+
+<div class="item">
+  <div>Nome</div>
+  <div>
+    <input
+      type="text"
+      name="name"
+      placeholder="Digite o nome do Membro"
+      value="{{ instructor.name }}"
+    />
+  </div>
+</div>
+
+<div class="item">
+  <div>E-mail</div>
+  <div>
+    <input
+      type="email"
+      name="email"
+      placeholder="seu@email.com.br"
+      value="{{ instructor.name }}"
+    />
+  </div>
+</div>
+
+<div class="item">
+  <div>Data de nascimento</div>
+  <div>
+    <input type="date" name="birth" value="{{ instructor.birth }}" />
+  </div>
+</div>
+
+<div class="item">
+  <div>sexo</div>
+  <div>
+    <span>
+      <input type="radio" name="gender" value="M" {% if instructor.gender == 'M'
+      %} checked="checked" {% endif %}> Masculino</span
+    >
+    <span>
+      <input type="radio" name="gender" value="F" {% if instructor.gender == 'F'
+      %} checked="checked" {% endif %}> Feminino</span
+    >
+  </div>
+</div>
+
+<div class="item">
+  <div>Tipo Sanguuíneo</div>
+  <div>
+    <select name="blood">
+      <option value="A1">A+</option>
+      <option value="A0">A-</option>
+      <option value="AB1">AB+</option>
+      <option value="AB0">AB-</option>
+      <option value="O1">O+</option>
+      <option value="O0">O-</option>
+    </select>
+  </div>
+</div>
+
+<button type="submit">Salvar</button>
